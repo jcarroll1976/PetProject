@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div>
+    <div className='flex space-x-4'>
         <p>Cat Care</p>
         <p>Resources</p>
         <p>Our Work</p>
