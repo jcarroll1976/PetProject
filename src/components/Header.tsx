@@ -1,14 +1,14 @@
 import React from 'react';
 import {BsTwitter} from "react-icons/bs";
-import {FaFacebookF} from "react-icons/fa";
+import {FaCat, FaFacebookF} from "react-icons/fa";
 import {ImYoutube2} from "react-icons/im";
 import {AiFillInstagram, AiOutlineSearch} from "react-icons/ai";
 
-function Navbar() {
+function Header() {
   return (
     <header>
-        <div>
-          <h1 className='text-2xl font-bold'>Friends of Feral Felines</h1>
+        <div className='flex justify-between items-center'>
+          <h1 className='flex text-2xl font-bold space-x-4'><FaCat />Friends of Feral Felines</h1>
 
           <ul className='flex space-x-2'>
            <li>About</li>
@@ -26,4 +26,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Header
