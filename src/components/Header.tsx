@@ -7,7 +7,7 @@ import {AiFillInstagram, AiOutlineSearch} from "react-icons/ai";
 function Header() {
   return (
     <header>
-        <div className='flex justify-between items-center'>
+        <div className='flex flex-col justify-between items-center'>
           <h1 className='flex text-2xl font-bold space-x-4'><FaCat />Friends of Feral Felines</h1>
 
           <ul className='flex space-x-2'>
