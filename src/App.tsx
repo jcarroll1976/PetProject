@@ -8,6 +8,16 @@ function App() {
     <div>
       <Header />
       <Navbar />
+      <h2 className='text-3xl'>Get Help</h2>
+      <div>
+        <div>
+          <h3 className='text-2xl'>Get Local Assistance With Cats</h3>
+          <p>Find hands-on assistance with Trap-Neuter-Return,veterinary services like spaying and
+            neutering,or other help, through our network.
+          </p>
+        </div>
+        <button>FIND</button>
+      </div>
     </div>
   );
 }
