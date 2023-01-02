@@ -24,6 +24,19 @@ function App() {
       <div>
         <h2 className='text-xl'>What To Do If You Find A Cat Outdoors</h2>
       </div>
+      <div>
+        <h2 className='text-xl'>Frequently Asked Questions</h2>
+      </div>
+      <div>
+        <h2 className='text-xl'>
+          Cat Care Guide
+        </h2>
+      </div>
+      <div>
+        <h2 className='text=xl'>
+          Financial Resources For Cats
+        </h2>
+      </div>
     </div>
   );
 }
