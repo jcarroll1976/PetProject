@@ -18,6 +18,12 @@ function App() {
         </div>
         <button>FIND</button>
       </div>
+      <div>
+        <h2 className='text-xl'>Need Advice About Cats?</h2>
+      </div>
+      <div>
+        <h2 className='text-xl'>What To Do If You Find A Cat Outdoors</h2>
+      </div>
     </div>
   );
 }
