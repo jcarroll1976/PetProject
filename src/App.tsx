@@ -47,6 +47,18 @@ function App() {
           Financial Resources For Cats
         </h2>
       </div>
+      <div>
+        <h2 className='text-xl'>Local Animal Shelters</h2>
+      </div>
+      <div>
+        <h2 className='text-xl'>Change Someone's Life. Adopt A Cat.</h2>
+      </div>
+      <div>
+        <h2 className='text-xl'>Trap-Neuter-Return(TNR)</h2>
+      </div>
+      <div>
+        <h2 className='text-xl'>Spay And Neuter</h2>
+      </div>
     </div>
   );
 }
