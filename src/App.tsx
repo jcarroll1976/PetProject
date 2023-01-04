@@ -4,6 +4,9 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import catAdvice from './catAdvice.jpg'
 import feralCat from './feralCat.jpg'
+import frequentlyAsked from './faq.jpg'
+import catCare from './catCare.jpg'
+import financialResources from './financialcatresources.jpg'
 
 function App() {
   return (
@@ -29,15 +32,18 @@ function App() {
         <h2 className='text-xl'>What To Do If You Find A Cat Outdoors</h2>
       </div>
       <div>
+        <img className='h-36' src={frequentlyAsked} alt='' />
         <h2 className='text-xl'>Frequently Asked Questions</h2>
       </div>
       <div>
+        <img className='h-36' src={catCare} alt='' />
         <h2 className='text-xl'>
           Cat Care Guide
         </h2>
       </div>
       <div>
         <h2 className='text-xl'>
+          <img className='h-36' src={financialResources} alt='' />
           Financial Resources For Cats
         </h2>
       </div>
