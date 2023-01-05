@@ -7,6 +7,8 @@ import feralCat from './feralCat.jpg'
 import frequentlyAsked from './faq.jpg'
 import catCare from './catCare.jpg'
 import financialResources from './financialcatresources.jpg'
+import shelterImage from './thomas-park-On6bRQRn5lY-unsplash.jpg'
+import catImage from './hang-niu-Tn8DLxwuDMA-unsplash.jpg'
 
 function App() {
   return (
@@ -48,9 +50,11 @@ function App() {
         </h2>
       </div>
       <div>
+        <img className='h-36' src={shelterImage} alt="" />
         <h2 className='text-xl'>Local Animal Shelters</h2>
       </div>
       <div>
+        <img className='h-36' src={catImage} alt='' />
         <h2 className='text-xl'>Change Someone's Life. Adopt A Cat.</h2>
       </div>
       <div>
