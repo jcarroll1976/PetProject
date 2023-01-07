@@ -9,6 +9,8 @@ import catCare from './catCare.jpg'
 import financialResources from './financialcatresources.jpg'
 import shelterImage from './thomas-park-On6bRQRn5lY-unsplash.jpg'
 import catImage from './hang-niu-Tn8DLxwuDMA-unsplash.jpg'
+import releasedCat from './uriel-soberanes-xadzcCQZ_Xc-unsplash.jpg'
+import fixedCats from './sara-ferreira-Rf0FKVKOswk-unsplash.jpg'
 
 function App() {
   return (
@@ -58,9 +60,11 @@ function App() {
         <h2 className='text-xl'>Change Someone's Life. Adopt A Cat.</h2>
       </div>
       <div>
+        <img className='h-36' src={releasedCat} alt='' />
         <h2 className='text-xl'>Trap-Neuter-Return(TNR)</h2>
       </div>
       <div>
+        <img className='h-36' src={fixedCats} alt='' />
         <h2 className='text-xl'>Spay And Neuter</h2>
       </div>
     </div>
