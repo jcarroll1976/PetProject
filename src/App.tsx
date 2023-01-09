@@ -53,6 +53,7 @@ function App() {
         </h2>
       </div>
     </div>
+    <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
       <div>
         <img className='h-36' src={shelterImage} alt="" />
         <h2 className='text-xl'>Local Animal Shelters</h2>
@@ -69,6 +70,7 @@ function App() {
         <img className='h-36' src={fixedCats} alt='' />
         <h2 className='text-xl'>Spay And Neuter</h2>
       </div>
+    </div>
     </div>
     
   );
