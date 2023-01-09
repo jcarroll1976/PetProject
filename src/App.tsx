@@ -14,11 +14,11 @@ import fixedCats from './sara-ferreira-Rf0FKVKOswk-unsplash.jpg'
 
 function App() {
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center'>
       <Header />
       <Navbar />
       <h2 className='text-3xl'>Get Help</h2>
-      <div>
+      <div className='flex justify-between'>
         <div>
           <h3 className='text-2xl'>Get Local Assistance With Cats</h3>
           <p>Find hands-on assistance with Trap-Neuter-Return,veterinary services like spaying and
@@ -27,6 +27,7 @@ function App() {
         </div>
         <button>FIND</button>
       </div>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
       <div>
         <img className='h-36' src={catAdvice} alt='' />
         <h2 className='text-xl'>Need Advice About Cats?</h2>
@@ -51,6 +52,7 @@ function App() {
           Financial Resources For Cats
         </h2>
       </div>
+    </div>
       <div>
         <img className='h-36' src={shelterImage} alt="" />
         <h2 className='text-xl'>Local Animal Shelters</h2>
@@ -68,6 +70,7 @@ function App() {
         <h2 className='text-xl'>Spay And Neuter</h2>
       </div>
     </div>
+    
   );
 }
 
