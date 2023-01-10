@@ -5,6 +5,7 @@ function Navbar() {
   return (
     <div className='flex flex-col  mx-auto space-y-4 justify-center items-center'>
         <div className='flex space-x-8'>
+        <p>About</p>
         <p>Cat Care</p>
         <p>Feeding Locations</p>
         <p>Resources</p>
