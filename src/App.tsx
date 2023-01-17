@@ -11,6 +11,7 @@ import shelterImage from './thomas-park-On6bRQRn5lY-unsplash.jpg'
 import catImage from './hang-niu-Tn8DLxwuDMA-unsplash.jpg'
 import releasedCat from './uriel-soberanes-xadzcCQZ_Xc-unsplash.jpg'
 import fixedCats from './sara-ferreira-Rf0FKVKOswk-unsplash.jpg'
+import sleepingCat from "./modcatshop-pdALzg0yN-8-unsplash.jpg"
 
 function App() {
   return (
@@ -71,11 +72,16 @@ function App() {
         <h2 className='text-xl'>Spay And Neuter</h2>
       </div>
     </div>
-    <div>
+    <div className='flex'>
+      <div>
+        <img className='h-24' src={sleepingCat} alt=""/>
+      </div>
+      <div className='flex flex-col'>
       <h1 className='text-xl'>About Friends of Feral Felines</h1>
       <p>We're all about protecting and improving cats' lives. Our mission is about the
         humane treatment of all pet, stray, and feral cats & kittens.Join us and help cats today.
       </p>
+      </div>
     </div>
     <h1 className='text-2xl'>Join Our Cause</h1>
     <div>
