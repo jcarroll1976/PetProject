@@ -71,6 +71,21 @@ function App() {
         <h2 className='text-xl'>Spay And Neuter</h2>
       </div>
     </div>
+    <div>
+      <h1 className='text-xl'>About Friends of Feral Felines</h1>
+      <p>We're all about protecting and improving cats' lives. Our mission is about the
+        humane treatment of all pet, stray, and feral cats & kittens.Join us and help cats today.
+      </p>
+    </div>
+    <h1 className='text-2xl'>Join Our Cause</h1>
+    <div>
+      <h2 className='text-xl'>Get the latest cat news,information, and ways to take action to save cats' lives!</h2>
+      <form>
+        <input type="email" placeholder="Enter your email"></input>
+        <input type="text" placeholder="First Name"></input>
+        <button>Sign me Up!</button>
+      </form>
+    </div>
     </div>
     
   );
