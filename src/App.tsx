@@ -12,6 +12,7 @@ import catImage from './hang-niu-Tn8DLxwuDMA-unsplash.jpg'
 import releasedCat from './uriel-soberanes-xadzcCQZ_Xc-unsplash.jpg'
 import fixedCats from './sara-ferreira-Rf0FKVKOswk-unsplash.jpg'
 import sleepingCat from "./modcatshop-pdALzg0yN-8-unsplash.jpg"
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -92,6 +93,7 @@ function App() {
         <button>Sign me Up!</button>
       </form>
     </div>
+    <Footer />
     </div>
     
   );
