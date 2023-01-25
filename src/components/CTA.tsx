@@ -22,6 +22,15 @@ function CTA() {
                 <li>Veterinary Resource Center</li>
             </ul>
         </div>
+        <div>
+            <h4>Take Action</h4>
+            <ul>
+                <li>Action Center-Local and Regional</li>
+                <li>Become a Cat Activist</li>
+                <li>Global Cat Day</li>
+                <li>Share Your Cat Expertise</li>
+            </ul>
+        </div>
     </div>
   )
 }
