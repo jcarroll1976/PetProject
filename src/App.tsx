@@ -95,7 +95,7 @@ function App() {
       </form>
     </div>
     <div className='flex justify-between'>
-        <div>
+        <div className='space-x-2'>
             <h4>Our Work</h4>
             <ul>
                 <li>Animal Shelters</li>
@@ -105,7 +105,7 @@ function App() {
                 <li>Trap-Neuter-Return(TNR)</li>
             </ul>
         </div>
-        <div>
+        <div className='space-x-2'>
             <h4>Resources</h4>
             <ul>
                 <li>Cat Care Center</li>
@@ -114,7 +114,7 @@ function App() {
                 <li>Veterinary Resource Center</li>
             </ul>
         </div>
-        <div>
+        <div className='space-x-2'>
             <h4>Take Action</h4>
             <ul>
                 <li>Action Center-Local and Regional</li>
