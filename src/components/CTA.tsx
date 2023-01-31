@@ -2,7 +2,7 @@ import React from 'react'
 
 function CTA() {
   return (
-    <div>
+    <div className='flex justify-between'>
         <div>
             <h4>Our Work</h4>
             <ul>
