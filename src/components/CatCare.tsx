@@ -6,6 +6,9 @@ function CatCare() {
     <div>
       <div>
       <img src={outdoorCat} alt="" />
+      <div>
+        <h2 className='text-xl'>Cat Care</h2>
+      </div>
       </div>   
     </div>
   )
