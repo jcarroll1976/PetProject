@@ -14,6 +14,7 @@ import fixedCats from './sara-ferreira-Rf0FKVKOswk-unsplash.jpg'
 import sleepingCat from "./modcatshop-pdALzg0yN-8-unsplash.jpg"
 import Footer from './components/Footer';
 import CTA from './components/CTA';
+import CatCare from './components/CatCare';
 
 function App() {
   return (
@@ -124,6 +125,7 @@ function App() {
             </ul>
         </div>
     </div>
+    <CatCare />
     <Footer />
     </div>
     
