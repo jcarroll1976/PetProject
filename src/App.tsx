@@ -15,21 +15,23 @@ import sleepingCat from "./modcatshop-pdALzg0yN-8-unsplash.jpg"
 import Footer from './components/Footer';
 import CTA from './components/CTA';
 import CatCare from './components/CatCare';
+import Banner from './components/Banner';
 
 function App() {
   return (
     <div className='flex flex-col justify-center items-center'>
       <Header />
       <Navbar />
+      <Banner />
       <h2 className='text-3xl text-orange-400'>GET HELP</h2>
       <div className='flex justify-between my-8'>
-        <div>
+        <div className="max-w-lg">
           <h3 className='text-2xl font-bold'>Get Local Assistance With Cats</h3>
           <p>Find hands-on assistance with Trap-Neuter-Return,veterinary services like spaying and
             neutering,or other help, through our network.
           </p>
         </div>
-        <button className='bg-orange-400 text-white'>FIND</button>
+        <button className='bg-orange-400 text-white w-12'>FIND</button>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
       <div>

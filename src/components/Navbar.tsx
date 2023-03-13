@@ -1,5 +1,5 @@
 import React from 'react';
-import catPhoto from "../ursa-bavcar-nNmWt0roQ-E-unsplash.jpg"
+
 
 function Navbar() {
   return (
@@ -10,9 +10,9 @@ function Navbar() {
         <p>Feeding Locations</p>
         <p>Resources</p>
         </div>
-        <img className="w-full object-cover" src={catPhoto} alt='' />
-        <h2 className='text-2xl'>Help Cats During Colder Months</h2>
-        <h3 className='text-xl'>How to Build An Outdoor Shelter</h3>
+        
+       {/*} <h2 className='text-2xl'>Help Cats During Colder Months</h2>
+        <h3 className='text-xl'>How to Build An Outdoor Shelter</h3>*/}
     </div>
   )
 }
