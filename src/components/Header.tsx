@@ -10,7 +10,7 @@ function Header() {
     <header>
         <div className='flex flex-col md:flex justify-between items-center'>
           <h1 className='flex text-3xl font-bold space-x-4 text-blue-400'><FaCat />Friends of Feral Felines</h1>
-          <GiHamburgerMenu className='absolute top-0 right-0 md:hidden' />
+          <GiHamburgerMenu className='absolute top-4 right-4 md:hidden' />
           <div className='flex space-x-2 items-center'>
             <form className='flex'>
               <input className='border-[1px] rounded-md p-1 flex border-gray-300' type='text' placeholder="search" />
