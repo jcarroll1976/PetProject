@@ -4,7 +4,7 @@ import React from 'react';
 function Navbar() {
   return (
     <div className='flex flex-col  mx-auto space-y-4 justify-center items-center'>
-        <div className='flex space-x-8'>
+        <div className=' hidden md:flex space-x-8'>
         <p className='text-xl font-bold'>About</p>
         <p className='text-xl font-bold'>Cat Care</p>
         <p className='text-xl font-bold'>Feeding Locations</p>
