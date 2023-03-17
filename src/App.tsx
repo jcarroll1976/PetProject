@@ -16,6 +16,7 @@ import Footer from './components/Footer';
 import CTA from './components/CTA';
 import CatCare from './components/CatCare';
 import Banner from './components/Banner';
+import Map from './components/Map';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Header />
       <Navbar />
       <Banner />
+      <Map />
       <h2 className='text-3xl text-orange-400'>GET HELP</h2>
       <div className='flex justify-between my-8'>
         <div className="max-w-lg">
