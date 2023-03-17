@@ -24,7 +24,7 @@ function App() {
       <Header />
       <Navbar />
       <Banner />
-      <Map />
+      {/*<Map />*/}
       <h2 className='text-3xl text-orange-400'>GET HELP</h2>
       <div className='flex justify-between my-8'>
         <div className="max-w-lg">
