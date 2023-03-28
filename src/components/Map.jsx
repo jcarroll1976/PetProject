@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect,useRef} from 'react'
 import {GoogleMapsProvider,
 useGoogleMap} from "@ubilabs/google-maps-react-hooks";
 
@@ -18,7 +18,7 @@ export default function Map() {
         options = {mapOptions}
         mapContainer = {mapContainer}
         >
-            <div className='h-screen' ref={(node) => setMapContainer(node)}></div>
+            <div className='h-[400px]' ref={(node) => setMapContainer(node)}></div>
     </GoogleMapsProvider>
   )
 }
