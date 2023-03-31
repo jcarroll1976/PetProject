@@ -16,9 +16,12 @@ import Footer from './components/Footer';
 import CTA from './components/CTA';
 import CatCare from './components/CatCare';
 import Banner from './components/Banner';
+import { Wrapper } from '@googlemaps/react-wrapper';
 import Map from './components/Map';
 
 function App() {
+  const center = { lat: -25.344, lng: 131.031 };
+  const zoom = 4;
   return (
     <div className='flex flex-col justify-center items-center'>
       <Header />
@@ -130,8 +133,11 @@ function App() {
         </div>
     </div>
     <CatCare />
+    <Wrapper apiKey={process.env.REACT_API_KEY}>
+      <Map center={center} zoom={zoom} />
+    </Wrapper>
     <Footer />
-    <Map />
+    
     </div>
     
   );
