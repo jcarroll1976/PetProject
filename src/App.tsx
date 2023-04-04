@@ -18,10 +18,16 @@ import CatCare from './components/CatCare';
 import Banner from './components/Banner';
 import { Wrapper } from '@googlemaps/react-wrapper';
 import Map from './components/Map';
+import Marker from './components/Marker';
 
 function App() {
-  const center = { lat: -25.344, lng: 131.031 };
-  const zoom = 4;
+  const center = { lat: 42.1966, lng: -83.6136 };
+  const zoom = 14;
+  const positions = [
+    { lat: 42.268430, lng: -83.587900 },
+    center,
+    { lat: 42.243020, lng: -83.607560 }
+  ]
   return (
     <div className='flex flex-col justify-center items-center'>
       <Header />
@@ -134,7 +140,9 @@ function App() {
     </div>
     <CatCare />
     <Wrapper apiKey={process.env.REACT_API_KEY}>
-      <Map center={center} zoom={zoom} />
+      <Map center={center} zoom={zoom} >
+        {positions.map((position) => (<Marker position = {position} /> ))}
+      </Map>
     </Wrapper>
     <Footer />
     
