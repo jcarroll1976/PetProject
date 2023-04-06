@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
@@ -28,6 +28,10 @@ function App() {
     center,
     { lat: 42.243020, lng: -83.607560 }
   ]
+  
+  
+  
+
   return (
     <div className='flex flex-col justify-center items-center'>
       <Header />

@@ -1,6 +1,12 @@
 import React,{ReactElement, ReactNode, useEffect,useRef, useState} from 'react';
 
-export default function Map({center,zoom,children}: {center: google.maps.LatLngLiteral,zoom: number;children:ReactNode}) {
+interface Props {
+  center: google.maps.LatLngLiteral
+  zoom: number
+  children: ReactNode
+}
+
+export default function Map({center,zoom,children}:Props) {
     const ref = useRef();
     const [map,setMap] = useState<google.maps.Map | null>(null);
     const style = {height: "400px",width:"100%"};
