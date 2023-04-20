@@ -143,7 +143,7 @@ function App() {
         </div>
     </div>
     <CatCare />
-    <Wrapper apiKey={process.env.REACT_API_KEY}>
+    <Wrapper apiKey={process.env.REACT_APP_MAPS_API_KEY}>
       <Map center={center} zoom={zoom} >
         {positions.map((position) => (<Marker position = {position} /> ))}
       </Map>
